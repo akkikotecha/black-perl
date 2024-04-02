@@ -1,0 +1,266 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;500;600;700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@font-face {
+  font-family: 'Pilat Wide';
+  src: url('./font/PilatWide-Bold.eot');
+  src: local('Pilat Wide Bold'), local('PilatWide-Bold'),
+      url('./font/PilatWide-Bold.eot?#iefix') format('embedded-opentype'),
+      url('./font/PilatWide-Bold.woff2') format('woff2'),
+      url('./font/PilatWide-Bold.woff') format('woff'),
+      url('./font/PilatWide-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pilat Wide';
+  src: url('./font/PilatWide-Thin.eot');
+  src: local('Pilat Wide Thin'), local('PilatWide-Thin'),
+      url('./font/PilatWide-Thin.eot?#iefix') format('embedded-opentype'),
+      url('./font/PilatWide-Thin.woff2') format('woff2'),
+      url('./font/PilatWide-Thin.woff') format('woff'),
+      url('./font/PilatWide-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pilat Wide Demi';
+  src: url('./font/PilatWide-DemiBold.eot');
+  src: local('Pilat Wide DemiBold'), local('PilatWide-DemiBold'),
+      url('./font/PilatWide-DemiBold.eot?#iefix') format('embedded-opentype'),
+      url('./font/PilatWide-DemiBold.woff2') format('woff2'),
+      url('./font/PilatWide-DemiBold.woff') format('woff'),
+      url('./font/PilatWide-DemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pilat Wide Book';
+  src: url('./font/PilatWide-Book.eot');
+  src: local('Pilat Wide Book'), local('PilatWide-Book'),
+      url('./font/PilatWide-Book.eot?#iefix') format('embedded-opentype'),
+      url('./font/PilatWide-Book.woff2') format('woff2'),
+      url('./font/PilatWide-Book.woff') format('woff'),
+      url('./font/PilatWide-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pilat Wide';
+  src: url('./font/PilatWide-Regular.eot');
+  src: local('Pilat Wide Regular'), local('PilatWide-Regular'),
+      url('./font/PilatWide-Regular.eot?#iefix') format('embedded-opentype'),
+      url('./font/PilatWide-Regular.woff2') format('woff2'),
+      url('./font/PilatWide-Regular.woff') format('woff'),
+      url('./font/PilatWide-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pilat Wide';
+  src: url('./font/PilatWide-Black.eot');
+  src: local('Pilat Wide Black'), local('PilatWide-Black'),
+      url('./font/PilatWide-Black.eot?#iefix') format('embedded-opentype'),
+      url('./font/PilatWide-Black.woff2') format('woff2'),
+      url('./font/PilatWide-Black.woff') format('woff'),
+      url('./font/PilatWide-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pilat Wide';
+  src: url('./font/PilatWide-Heavy.eot');
+  src: local('Pilat Wide Heavy'), local('PilatWide-Heavy'),
+      url('./font/PilatWide-Heavy.eot?#iefix') format('embedded-opentype'),
+      url('./font/PilatWide-Heavy.woff2') format('woff2'),
+      url('./font/PilatWide-Heavy.woff') format('woff'),
+      url('./font/PilatWide-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pilat Wide';
+  src: url('./font/PilatWide-Light.eot');
+  src: local('Pilat Wide Light'), local('PilatWide-Light'),
+      url('./font/PilatWide-Light.eot?#iefix') format('embedded-opentype'),
+      url('./font/PilatWide-Light.woff2') format('woff2'),
+      url('./font/PilatWide-Light.woff') format('woff'),
+      url('./font/PilatWide-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-pilat-wide: "Pilat Wide";
+  --font-montserrat: Montserrat;
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-5xl: 24px;
+  --font-size-lgi: 19px;
+  --font-size-76xl: 95px;
+  --font-size-28xl: 47px;
+  --font-size-9xl: 28px;
+  --font-size-3xl: 22px;
+  --font-size-7xl: 26px;
+  --font-size-29xl: 48px;
+  --font-size-13xl: 32px;
+  --font-size-8xl: 27px;
+  --font-size-xl: 20px;
+  --font-size-15xl: 34px;
+  --font-size-19xl: 38px;
+  --font-size-11xl: 30px;
+  --font-size-4xl: 23px;
+  --font-size-33xl: 52px;
+  --font-size-23xl: 42px;
+  --font-size-12xl: 31px;
+  --font-size-6xl: 25px;
+  --font-size-36xl: 55px;
+  --font-size-25xl: 44px;
+  --font-size-14xl: 33px;
+  --font-size-sm: 14px;
+  --font-size-26xl: 45px;
+  --font-size-17xl: 36px;
+  --font-size-69xl: 88px;
+
+  /* Colors */
+  --a18: #050a18;
+  /* --a18: #ff0f0f; */
+  --color-gray-100: rgba(255, 255, 255, 0.35);
+  --color-gray-200: rgba(255, 255, 255, 0.34);
+  --color-gray-300: rgba(255, 255, 255, 0.1);
+  --color-gray-400: rgba(255, 255, 255, 0.5);
+  --color-gray-500: rgba(255, 255, 255, 0.55);
+  --white: #fff;
+  --black: #000;
+  --color-darkslategray: #383d4a;
+  --color-gainsboro: #e6e6e6;
+  --green: #10ff7c;
+  --f38e: #00f38e;
+
+  /* Gaps */
+  --gap-45xl: 64px;
+  --gap-13xl: 32px;
+  --gap-base: 16px;
+  --gap-xl: 20px;
+  --gap-37xl: 56px;
+  --gap-9xl: 28px;
+  --gap-3xl: 22px;
+  --gap-0: 0px;
+  --gap-21xl: 40px;
+  --gap-41xl: 60px;
+  --gap-11xl: 30px;
+  --gap-15xl: 34px;
+  --gap-mid: 17px;
+  --gap-47xl: 66px;
+  --gap-14xl: 33px;
+  --gap-34xl: 53px;
+  --gap-7xl: 26px;
+  --gap-49xl: 68px;
+  --gap-51xl: 70px;
+  --gap-16xl: 35px;
+  --gap-68xl: 87px;
+  --gap-24xl: 43px;
+  --gap-152xl: 171px;
+  --gap-66xl: 85px;
+  --gap-17xl: 36px;
+  --gap-110xl: 129px;
+  --gap-31xl: 50px;
+  --gap-6xl: 25px;
+  --gap-101xl: 120px;
+  --gap-481xl: 500px;
+  --gap-231xl: 250px;
+  --gap-106xl: 125px;
+  --gap-122xl: 141px;
+  --gap-70xl: 89px;
+  --gap-25xl: 44px;
+  --gap-2xl: 21px;
+  --gap-10xl: 29px;
+  --gap-11xs: 2px;
+
+  /* Paddings */
+  --padding-2xs: 11px;
+  --padding-53xl: 72px;
+  --padding-xs: 12px;
+  --padding-17xl: 36px;
+  --padding-9xs: 4px;
+  --padding-lg: 18px;
+  --padding-xl: 4px;
+  --padding-5xs: 8px;
+  --padding-99xl: 118px;
+  --padding-31xl: 50px;
+  --padding-58xl: 77px;
+  --padding-7xs: 6px;
+  --padding-10xl: 29px;
+  --padding-29xl: 48px;
+  --padding-5xl: 18px;
+  --padding-12xl: 31px;
+  --padding-4xl: 23px;
+  --padding-11xl: 30px;
+  --padding-12xs: 1px;
+  --padding-11xs: 2px;
+  --padding-8xs: 5px;
+  --padding-19xl: 38px;
+  --padding-13xl: 32px;
+  --padding-108xl: 127px;
+  --padding-43xl: 62px;
+  --padding-22xl: 41px;
+  --padding-30xl: 49px;
+  --padding-21xl: 40px;
+  --padding-8xl: 27px;
+  --padding-7xl: 26px;
+  --padding-16xl: 35px;
+  --padding-6xl: 25px;
+  --padding-27xl: 46px;
+  --padding-261xl: 280px;
+  --padding-163xl: 182px;
+  --padding-60xl: 79px;
+  --padding-281xl: 165px;
+  --padding-176xl: 165px;
+  --padding-4xs: 9px;
+  --padding-3xl: 22px;
+  --padding-3xs: 10px;
+  --padding-10xs: 3px;
+  --padding-61xl: 80px;
+  --padding-33xl: 52px;
+  --padding-15xl: 34px;
+  --padding-468xl: 487px;
+  --padding-36xl: 55px;
+  --padding-119xl: 138px;
+  --padding-298xl: 317px;
+  --padding-50xl: 69px;
+  --padding-187xl: 206px;
+  --padding-142xl: 135px;
+  --padding-mid: 17px;
+  --padding-122xl: 74px;
+  --padding-86xl: 105px;
+  --padding-73xl: 92px;
+  --padding-49xl: 68px;
+  --padding-41xl: 60px;
+  --padding-38xl: 57px;
+  --padding-sm: 14px;
+  --padding-mini: 15px;
+  --padding-20xl: 39px;
+  --padding-base: 16px;
+  --padding-14xl: 33px;
+
+  /* Border radiuses */
+  --br-5xs: 8px;
+  --br-smi: 13px;
+  --br-base: 16px;
+  --br-xl: 20px;
+  --br-2xl: 21px;
+}

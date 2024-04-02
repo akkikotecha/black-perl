@@ -1,0 +1,57 @@
+.image1Icon {
+    height: 173px;
+    width: 194px;
+    position: relative;
+    object-fit: cover;
+  }
+  .fbIcon,
+  .instaIcon,
+  .ytIcon {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    min-height: 50px;
+  }
+  .instaFbYTFrame,
+  .instaFbYTLabel {
+    display: flex;
+    align-items: flex-start;
+  }
+  .instaFbYTLabel {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .instaFbYTFrame {
+    width: 210px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-10xl) 0 0;
+    box-sizing: border-box;
+  }
+  .footerSection,
+  .frameWithTitleAndSubtitle {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  .frameWithTitleAndSubtitle {
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .footerSection {
+    width: 1308px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-7xs) 0 0;
+    box-sizing: border-box;
+  }
+  @media screen and (max-width: 450px) {
+    .frameWithTitleAndSubtitle {
+      flex-wrap: wrap;
+    }
+  }
+  
