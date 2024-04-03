@@ -1,0 +1,166 @@
+.phoneNumberInputChild {
+    object-fit: contain;
+  }
+  .phoneNumberInputChild,
+  .phoneNumberInputItem {
+    height: 37px;
+    width: 37px;
+    position: relative;
+    min-height: 37px;
+  }
+  .group,
+  .phoneNumberInput {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .phoneNumberInput {
+    flex: 1;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .group {
+    width: 265px;
+    justify-content: flex-start;
+    padding: 0 var(--padding-60xl);
+    box-sizing: border-box;
+  }
+  .titleprimaryleftIcon {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .maskGroupIcon {
+    position: absolute;
+    top: 172px;
+    left: 20px;
+    width: 526px;
+    height: 658px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .submitBtn {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .nameInput {
+    height: 850px;
+    flex: 1;
+    position: relative;
+    min-width: 413px;
+    max-width: 100%;
+  }
+  .vectorIcon {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .maskGroupIcon1 {
+    position: absolute;
+    top: 172px;
+    left: 20px;
+    width: 526px;
+    height: 658px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .vectorParent {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .nameInput1 {
+    height: 850px;
+    flex: 1;
+    position: relative;
+    min-width: 413px;
+    max-width: 100%;
+  }
+  .callToAction,
+  .line {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .line {
+    align-self: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 0 72px;
+  }
+  .callToAction {
+    width: 1344px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 70px 0;
+  }
+  .callToActionWrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 88px 165px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  @media screen and (max-width: 1250px) {
+    .callToActionWrapper {
+      padding-bottom: var(--padding-163xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .nameInput,
+    .nameInput1 {
+      min-width: 100%;
+    }
+    .line {
+      gap: 0 36px;
+    }
+    .callToAction {
+      gap: 35px 0;
+    }
+    .callToActionWrapper {
+      padding-bottom: var(--padding-99xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .group {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .line {
+      gap: 0 18px;
+    }
+    .callToAction {
+      gap: 17px 0;
+    }
+  }
+  

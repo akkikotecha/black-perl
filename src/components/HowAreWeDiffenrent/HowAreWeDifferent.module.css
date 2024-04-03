@@ -1,0 +1,342 @@
+.weDifferent {
+    margin: 0;
+    height: 24px;
+    position: relative;
+    font-size: inherit;
+    /*/*line-height: 53px;*/
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+  }
+  .mostAffordable,
+  .price {
+    margin: 0;
+  }
+  .mostAffordablePriceContainer {
+    margin: 0 !important;
+    height: 81px;
+    width: 533px;
+    position: absolute;
+    top: -20px;
+    right: -71px;
+    font-size: inherit;
+    letter-spacing: 0.01em;
+    /*/*line-height: 53px;*/
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    text-shadow: 0.7px 0 0#fff, 0 0.7px 0#fff, -0.7px 0 0#fff, 0-0.7px 0#fff;
+    z-index: 1;
+  }
+  .agreeGroupChild,
+  .phoneNumberFrameChild {
+    height: 40px;
+    width: 40px;
+    position: relative;
+  }
+  .bestReturnOn,
+  .investment {
+    margin: 0;
+  }
+  .bestReturnOnContainer {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.01em;
+    /*/*line-height: 53px;*/
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    text-shadow: 0.7px 0 0#fff, 0 0.7px 0#fff, -0.7px 0 0#fff, 0-0.7px 0#fff;
+    min-width: 301px;
+    max-width: 100%;
+  }
+  .agreeGroup {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0 30px;
+    max-width: 100%;
+  }
+  .phoneNumberFrame {
+    flex: 1;
+    flex-direction: column;
+    gap: 141px 0;
+  }
+  .frameLink,
+  .getInfoIcon,
+  .phoneNumberFrame {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .getInfoIcon {
+    align-self: stretch;
+    flex-direction: row;
+    position: relative;
+    font-size: var(--font-size-23xl);
+    color: var(--white);
+  }
+  .frameLink {
+    width: 534px;
+    flex-direction: column;
+    padding: 0 var(--padding-12xs) 0 0;
+    box-sizing: border-box;
+    gap: 500px 0;
+    min-width: 534px;
+  }
+  .frameContactInfoChild {
+    width: 100%;
+    height: 768px;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .costlyCertificates,
+  .trueKnowledge {
+    margin: 0 !important;
+    height: 24px;
+    position: absolute;
+    top: 167px;
+    left: -130px;
+    font-size: var(--font-size-15xl);
+    line-height: 64px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    z-index: 1;
+  }
+  .trueKnowledge {
+    height: 39px;
+    top: 217px;
+    font-size: var(--font-size-36xl);
+  }
+  .frameReviewsChild {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    z-index: 1;
+  }
+  .decadesOld,
+  .experience {
+    margin: 0;
+  }
+  .decadesOldExperienceContainer {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.01em;
+    /*/*line-height: 53px;*/
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    text-shadow: 0.7px 0 0#fff, 0 0.7px 0#fff, -0.7px 0 0#fff, 0-0.7px 0#fff;
+    min-width: 248px;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .frameReviews,
+  .ourPartnersFrame {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frameReviews {
+    width: 451px;
+    align-items: center;
+    gap: 0 30px;
+  }
+  .ourPartnersFrame {
+    align-self: stretch;
+    align-items: flex-start;
+  }
+  .ourPartnersFrameChild {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    z-index: 1;
+  }
+  .notClient,
+  .weBuildRelations {
+    margin: 0;
+  }
+  .weBuildRelationsContainer {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.01em;
+    /*/*line-height: 53px;*/
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    text-shadow: 0.7px 0 0#fff, 0 0.7px 0#fff, -0.7px 0 0#fff, 0-0.7px 0#fff;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .frameContactInfo,
+  .ourPartnersFrame1,
+  .rectangleShape {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .ourPartnersFrame1 {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: center;
+    gap: 0 30px;
+  }
+  .frameContactInfo,
+  .rectangleShape {
+    box-sizing: border-box;
+  }
+  .frameContactInfo {
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--padding-468xl) var(--padding-36xl) 0 var(--padding-119xl);
+    position: relative;
+    gap: 120px 0;
+    min-width: 532px;
+    font-size: var(--font-size-23xl);
+    color: var(--white);
+  }
+  .rectangleShape {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0 0 var(--padding-61xl);
+    gap: 0 16px;
+    text-align: left;
+    font-size: var(--font-size-15xl);
+    color: var(--f38e);
+    font-family: var(--font-pilat-wide);
+  }
+  @media screen and (max-width: 1250px) {
+    .frameLink {
+      flex: 1;
+      padding-right: 0;
+      box-sizing: border-box;
+    }
+    .rectangleShape {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 1100px) {
+    .frameContactInfo {
+      gap: 60px 0;
+      padding-left: var(--padding-50xl);
+      padding-right: var(--padding-8xl);
+      box-sizing: border-box;
+    }
+    .rectangleShape {
+      padding-bottom: var(--padding-33xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .weDifferent {
+      font-size: var(--font-size-8xl);
+      /*/*line-height: 53px;*/
+    }
+    .bestReturnOnContainer,
+    .mostAffordablePriceContainer {
+      font-size: var(--font-size-15xl);
+      /*/*line-height: 53px;*/
+    }
+    .phoneNumberFrame {
+      gap: 70px 0;
+    }
+    .frameLink {
+      gap: 250px 0;
+      min-width: 100%;
+    }
+    .costlyCertificates,
+    .trueKnowledge {
+      font-size: var(--font-size-8xl);
+      /*/*line-height: 53px;*/
+    }
+    .trueKnowledge {
+      font-size: var(--font-size-25xl);
+    }
+    .decadesOldExperienceContainer,
+    .weBuildRelationsContainer {
+      font-size: var(--font-size-15xl);
+      /*/*line-height: 53px;*/
+    }
+    .ourPartnersFrame1 {
+      flex-wrap: wrap;
+    }
+    .frameContactInfo {
+      padding-top: var(--padding-298xl);
+      box-sizing: border-box;
+      min-width: 100%;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .weDifferent {
+      font-size: var(--font-size-xl);
+      /*/*line-height: 53px;*/
+    }
+    .bestReturnOnContainer,
+    .mostAffordablePriceContainer {
+      font-size: var(--font-size-6xl);
+      /*/*line-height: 53px;*/
+    }
+    .agreeGroup {
+      flex-wrap: wrap;
+    }
+    .phoneNumberFrame {
+      gap: 35px 0;
+    }
+    .frameLink {
+      gap: 125px 0;
+    }
+    .costlyCertificates,
+    .trueKnowledge {
+      font-size: var(--font-size-xl);
+      /*/*line-height: 53px;*/
+    }
+    .trueKnowledge {
+      font-size: var(--font-size-14xl);
+    }
+    .decadesOldExperienceContainer {
+      font-size: var(--font-size-6xl);
+      /*/*line-height: 53px;*/
+    }
+    .frameReviews {
+      flex-wrap: wrap;
+    }
+    .weBuildRelationsContainer {
+      font-size: var(--font-size-6xl);
+      /*/*line-height: 53px;*/
+    }
+    .frameContactInfo {
+      gap: 30px 0;
+      padding-left: var(--padding-xl);
+      padding-top: var(--padding-187xl);
+      box-sizing: border-box;
+    }
+    .rectangleShape {
+      padding-bottom: var(--padding-15xl);
+      box-sizing: border-box;
+    }
+  }
+  

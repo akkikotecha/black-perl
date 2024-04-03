@@ -1,0 +1,187 @@
+.relationFirst,
+.services {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+}
+.services {
+  margin: 0 !important;
+  position: absolute;
+  top: -18px;
+  left: -79px;
+  font-size: inherit;
+  line-height: 64px;
+}
+.relationFirst {
+  margin: 0;
+  height: 36px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-33xl);
+  letter-spacing: 0.01em;
+  /*/*line-height: 53px;*/
+  display: inline-block;
+  text-shadow: 0.7px 0 0#fff, 0 0.7px 0#fff, -0.7px 0 0#fff, 0-0.7px 0#fff;
+  opacity: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.subheaderFrame {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  min-width: 783px;
+  max-width: 101%;
+  flex-shrink: 0;
+}
+.textChild {
+  margin-top: -3px;
+  width: 37px;
+  height: 37px;
+  position: relative;
+  object-fit: contain;
+  z-index: 2;
+}
+.headerFrameChild,
+.text {
+  margin-top: -3px;
+  margin-left: -117px;
+}
+.text {
+  width: 187px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.headerFrameChild {
+  height: 37px;
+  width: 37px;
+  position: relative;
+  z-index: 2;
+}
+.headerFrame,
+.imageFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.headerFrame {
+  width: 1204px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+  min-height: 39px;
+  row-gap: 20px;
+}
+.imageFrame {
+  align-self: stretch;
+  justify-content: flex-end;
+}
+.portfolio {
+  margin: 0;
+  height: 24px;
+  position: relative;
+  font-size: var(--font-size-15xl);
+  /*/*line-height: 53px;*/
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--f38e);
+  display: inline-block;
+}
+.agreeTermsCheckboxGroup {
+  width: 1275px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px 0;
+  flex-shrink: 0;
+}
+.agreeTermsCheckboxGroup,
+.component1serviceParent,
+.writeHereLabel {
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.component1serviceParent {
+  align-self: stretch;
+  display: grid;
+  flex-direction: row;
+  gap: 0 24px;
+  grid-template-columns: repeat(3, minmax(312px, 1fr));
+  flex-shrink: 0;
+  font-size: var(--font-size-19xl);
+}
+.writeHereLabel {
+  width: 1336px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-xl) var(--padding-281xl);
+  box-sizing: border-box;
+  gap: 87px 0;
+  text-align: left;
+  font-size: var(--font-size-76xl);
+  color: var(--white);
+  font-family: var(--font-pilat-wide);
+}
+@media screen and (max-width: 1100px) {
+  .subheaderFrame {
+    min-width: 100%;
+  }
+  .component1serviceParent {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(312px, 541px));
+  }
+  .writeHereLabel {
+    padding-bottom: var(--padding-176xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .services {
+    font-size: var(--font-size-28xl);
+    /*/*line-height: 53px;*/
+  }
+  .portfolio,
+  .relationFirst {
+    font-size: var(--font-size-23xl);
+    /*/*line-height: 53px;*/
+  }
+  .portfolio {
+    font-size: var(--font-size-8xl);
+  }
+  .agreeTermsCheckboxGroup {
+    gap: 25px 0;
+  }
+  .component1serviceParent {
+    grid-template-columns: minmax(312px, 1fr);
+  }
+  .writeHereLabel {
+    gap: 43px 0;
+    padding-bottom: var(--padding-108xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .services {
+    font-size: var(--font-size-9xl);
+    /*/*line-height: 53px;*/
+  }
+  .portfolio,
+  .relationFirst {
+    font-size: var(--font-size-12xl);
+    /*/*line-height: 53px;*/
+  }
+  .portfolio {
+    font-size: var(--font-size-xl);
+  }
+  .writeHereLabel {
+    gap: 22px 0;
+  }
+}
